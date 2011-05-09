@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<install version="1.5" type="template">
+    <name>Rapids Family Health Team</name>
+    <version>1.0</version>
+    <creationDate>May 9, 2011</creationDate>
+    <author>Darren Murray</author>
+    <authorEmail>dmurray@ccistudios.com</authorEmail>
+    <authorUrl>http://www.ccistudios.com</authorUrl>
+    <copyright>Copyright 2011 - Rapids Family Health Team</copyright>
+    <license>GNU v3</license>
+    <description>
+        <![CDATA[
+        ]]>
+    </description>
+ 
+    <files>
+		<filename>index.php</filename>
+		<filename>templateDetails.xml</filename>
+		<folder>css</folder>
+        <folder>html</folder>
+        <folder>images</folder>
+    </files>
+ 
+    <positions>
+		<position>top</position>
+		<position>mainmenu</position>
+		<position>header</position>
+		<position>sidebar1</position>
+		<position>sidebar2</position>
+		<position>bottom</position>
+    </positions>
+ 
+    <params>
+    </params>
+</install>

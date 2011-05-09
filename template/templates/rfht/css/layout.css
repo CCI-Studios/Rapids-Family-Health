@@ -1,0 +1,59 @@
+#top { 
+	background: white;
+	width: 960px;
+	margin: 0 auto;
+	padding-top: 14px;
+}
+
+#top > div {
+	background: url(../images/rfhtlogo.jpg) no-repeat;
+	height: 108px;
+}
+
+#mainmenu {
+	background: url(../images/mainmenubg.png) repeat-x;
+	height: 46px;
+	margin: 0 auto;
+}
+
+#mainmenu > div {
+	width: 960px;
+	margin: 0 auto;
+}
+
+#header {
+	background: url(../images/innerpgheaderbgfull.png) repeat-x;
+}
+
+#header > div {
+	background: url(../images/innerpgheaderbg.png) no-repeat;
+	height: 290px; /* fixme */
+	width: 960px;
+	margin: 0 auto;
+}
+
+#content { background: white;
+	height: 350px;}
+
+#bottom {
+	background: #3f7e86;
+	margin: 0 auto;
+}
+
+#bottom > div {
+	background: url(../images/innerpgbottombg.png) no-repeat;
+	width: 960px;
+	margin: 0 auto;
+	height: 290px; /* fixme */
+}
+
+#bottom > div > div {
+	background: url(../images/ontariologo.png) no-repeat;
+	margin: 150px 0;
+}
+
+#bottom > div > div > div {
+	background: url(../images/bottomhr.png) bottom left repeat-x;
+	padding: 1px 0;
+	margin: 1px 0;
+}
