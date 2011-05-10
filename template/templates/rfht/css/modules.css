@@ -6,18 +6,19 @@
 #top .moduletable li { display: inline; }
 #top .moduletable a,
 #top .moduletable span { color: #487c85; text-decoration: none; padding: 0 4px; }
+#top .moduletable a:hover { color: #f18500; }
 /*top menu ends */
 
 
 
 /* main menu begins */
 .moduletable_menu { float: left; font-size: 15px; margin: 15px 0;}
-.moduletable_menu ul { list-style-type: none; }
+.moduletable_menu ul { list-style-type: none;  }
 .moduletable_menu li { display: inline; }
 .moduletable_menu a,
 .moduletable_menu span { color: #487c85; text-decoration: none; padding: 0 15px; }
 .moduletable_menu a,span:first-child { padding: 0 15px 0 0; }
-.moduletable_menu span:hover { color: #487c85; font-weight: bold; }
+.moduletable_menu span:hover { color: #f18500; }
 
 /* main menu ends */
 
@@ -28,4 +29,5 @@
 #bottom .moduletable li { display: inline;  /* fixme */  }
 #bottom .moduletable a,
 #bottom .moduletable span { color: white; text-decoration: none; padding: 2px; }
+#bottom .moduletable span:hover { color: #f18500; }
 /* bottom menu ends */

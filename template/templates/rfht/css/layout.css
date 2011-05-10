@@ -1,13 +1,11 @@
 #top { 
 	background: white;
-	width: 960px;
-	margin: 0 auto;
-	padding-top: 14px;
+	
 }
 
 #top > div {
-	background: url(../images/rfhtlogo.jpg) no-repeat;
-	height: 108px;
+	margin: 0 auto;
+	width: 960px;
 }
 
 #mainmenu {
@@ -22,38 +20,59 @@
 }
 
 #header {
-	background: url(../images/innerpgheaderbgfull.png) repeat-x;
+	background: #3f7e86 url(../images/header_glow_inner.png) center no-repeat;
 }
 
 #header > div {
-	background: url(../images/innerpgheaderbg.png) no-repeat;
-	height: 290px; /* fixme */
+	/* add image with top shadow */
+	border-top: 4px solid black; /* fix me */
+	padding-top: 10px;
+}
+
+#header > div > div {
+	/* add image with bottom shadow, curve etc */
+	background: url(../images/header_bottom_bg.png) bottom no-repeat;
+	padding-bottom: 50px;
+}
+
+#header > div > div > div {
 	width: 960px;
 	margin: 0 auto;
 }
 
-#content { background: white;
-	height: 350px;}
+
+#content { 
+	background: white;
+	width: 800px;
+	padding: 25px 0;
+	margin: 0 auto;
+}
+
+#sidebar1 { 
+	background: black;
+	height: 500px;
+	width: 160px;
+}
+
+#sidebar2 {
+	width: 300px;
+}
 
 #bottom {
-	background: #3f7e86;
-	margin: 0 auto;
+	background: url(../images/bottom_bg2.png) center no-repeat;
+	padding-top: 36px;
 }
 
 #bottom > div {
-	background: url(../images/innerpgbottombg.png) no-repeat;
-	width: 960px;
-	margin: 0 auto;
-	height: 290px; /* fixme */
+	background: #3f7e86;
 }
 
-#bottom > div > div {
-	background: url(../images/ontariologo.png) no-repeat;
-	margin: 150px 0;
+#bottom > div > div { 
+	background: url(../images/bottomhr.png) repeat-x;
+	width: 960px;
 }
 
 #bottom > div > div > div {
-	background: url(../images/bottomhr.png) bottom left repeat-x;
 	padding: 1px 0;
-	margin: 1px 0;
+	margin: 0 auto;
 }

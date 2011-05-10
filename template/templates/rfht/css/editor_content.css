@@ -1,0 +1,30 @@
+.footer { 
+	color: white;
+	font-size: 10px;
+}
+
+#bottom .left {
+	color: white;
+	font-size: 10px;
+	text-decoration: none;
+}
+
+#bottom .left > a {
+	color: white;
+	text-decoration: none;
+}
+
+#bottom .right {
+	color: white;
+	font-size: 10px;
+	text-decoration: none;
+}
+
+#bottom .right > a {
+	color: white;
+	text-decoration: none;
+}
+
+#bottom .right > a:hover {
+	color: #f18500;
+}

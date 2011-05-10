@@ -5,3 +5,9 @@ body {
 	font-family: times, arial;
 	margin: 0 auto; 
 } 
+
+h1 {
+	color: #ff9415;
+	font-size: 25px;
+	padding: 46px 0 12px 0;
+}
