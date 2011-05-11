@@ -3,11 +3,18 @@ html { background: #3f7e86;  }
 body { 
 	background: white;
 	font-family: times, arial;
+	line-height: 1.5em;
 	margin: 0 auto; 
 } 
 
 h1 {
 	color: #ff9415;
-	font-size: 25px;
+	font-size: 50px;
 	padding: 46px 0 12px 0;
 }
+
+h3 {
+	font-size: 20px;
+	font-weight: bold;
+}
+

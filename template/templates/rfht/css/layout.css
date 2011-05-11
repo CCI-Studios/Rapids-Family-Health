@@ -1,7 +1,4 @@
-#top { 
-	background: white;
-	
-}
+#top { background: white; }
 
 #top > div {
 	margin: 0 auto;
@@ -15,18 +12,15 @@
 }
 
 #mainmenu > div {
-	width: 960px;
 	margin: 0 auto;
+	width: 960px;
 }
 
-#header {
-	background: #3f7e86 url(../images/header_glow_inner.png) center no-repeat;
-}
+#header { background: #3f7e86 url(../images/header_glow_inner.png) center no-repeat; }
 
 #header > div {
-	/* add image with top shadow */
-	border-top: 4px solid black; /* fix me */
-	padding-top: 10px;
+	background: url(../images/header_top_bg.png) top repeat-x;
+	padding-top: 8px;
 }
 
 #header > div > div {
@@ -36,43 +30,59 @@
 }
 
 #header > div > div > div {
-	width: 960px;
 	margin: 0 auto;
+	min-height: 188px;
+	width: 960px;
 }
 
 
 #content { 
 	background: white;
-	width: 800px;
-	padding: 25px 0;
 	margin: 0 auto;
+	padding: 25px 10px;	
+	width: 940px;
 }
 
+#content > div { }
+
+#component {
+	float: left; 
+	width: 940px;
+}
+
+#component.medium { width: 780px; }
+#component.narrow { width: 480px; }
+
+#component > div { }
+
 #sidebar1 { 
-	background: black;
-	height: 500px;
+	background: white;
+	float: left;
 	width: 160px;
 }
 
-#sidebar2 {
+#sidebar1 > div { padding: 0 10px; }
+
+#sidebar2 { 
+	float: left;
 	width: 300px;
 }
 
 #bottom {
 	background: url(../images/bottom_bg2.png) center no-repeat;
-	padding-top: 36px;
+	padding-top: 80px; /* fixme */	
 }
 
-#bottom > div {
-	background: #3f7e86;
-}
+#bottom > div { background: #3f7e86; }
 
-#bottom > div > div { 
-	background: url(../images/bottomhr.png) repeat-x;
-	width: 960px;
-}
-
-#bottom > div > div > div {
-	padding: 1px 0;
+#bottom > div > div {	
 	margin: 0 auto;
+	width: 940px;
+}
+
+#bottom > div > div > div { 
+	background: url(../images/bottomhr.png) repeat-x;
+	margin: 10px 0;
+	padding: 10px 0px;
+	width: 940px;
 }

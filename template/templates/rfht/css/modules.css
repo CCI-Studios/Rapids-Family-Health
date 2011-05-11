@@ -1,33 +1,48 @@
 .moduletable { }
 
 /*top menu begins */
-#top .moduletable { float: right; font-size: 14px; margin: 40px 0 0; }
-#top .moduletable ul { list-style-type: none; }
+
+#top .moduletable { font-size: 14px; padding: 10px 0; }
+#top .moduletable ul { float: right; list-style-type: none; padding-top: 40px; }
 #top .moduletable li { display: inline; }
 #top .moduletable a,
-#top .moduletable span { color: #487c85; text-decoration: none; padding: 0 4px; }
+#top .moduletable span { color: #487c85; padding: 0 4px; text-decoration: none; }
 #top .moduletable a:hover { color: #f18500; }
+
 /*top menu ends */
 
-
-
 /* main menu begins */
-.moduletable_menu { float: left; font-size: 15px; margin: 15px 0;}
-.moduletable_menu ul { list-style-type: none;  }
-.moduletable_menu li { display: inline; }
-.moduletable_menu a,
-.moduletable_menu span { color: #487c85; text-decoration: none; padding: 0 15px; }
-.moduletable_menu a,span:first-child { padding: 0 15px 0 0; }
-.moduletable_menu span:hover { color: #f18500; }
+.moduletable_menu { font-size: 15px; }
+.moduletable_menu ul { list-style-type: none; }
+.moduletable_menu li { float: left; }
+.moduletable_menu li > a,
+.moduletable_menu li > span { 
+	color: #487c85; 
+	display: block;
+	line-height: 33px;
+	margin-bottom: 1px;
+	padding: 4px 15px 8px;
+	text-decoration: none;
+}
+.moduletable_menu li:first-child > a,
+.moduletable_menu li:first-child > span { padding-left: 0; }
+.moduletable_menu li > a:hover,
+.moduletable_menu li > span:hover { 
+	background: url(../images/hoverdot.png) bottom no-repeat;
+	color: #f18500;
+}
 
 /* main menu ends */
 
-
 /*bottom menu begins */
-#bottom .moduletable { font-size: 10px; float: right; color: white; }
-#bottom .moduletable ul { list-style-type: none; margin: 50px 0 10px; /* fixme */  }
-#bottom .moduletable li { display: inline;  /* fixme */  }
+#bottom .moduletable { color: white; font-size: 10px; }
+#bottom .moduletable ul { float: right; list-style-type: none; padding-top: 25px; }
+#bottom .moduletable li { display: inline; }
 #bottom .moduletable a,
-#bottom .moduletable span { color: white; text-decoration: none; padding: 2px; }
+#bottom .moduletable span { color: white; padding: 2px; text-decoration: none; }
 #bottom .moduletable span:hover { color: #f18500; }
 /* bottom menu ends */
+
+/* sidebar1 begins */
+#sidebar1 .moduletable { padding: 0 0 25px 0; }
+/* sidebar1 ends */
