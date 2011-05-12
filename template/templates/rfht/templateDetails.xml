@@ -25,8 +25,8 @@
 		<position>top</position>
 		<position>mainmenu</position>
 		<position>header</position>
-		<position>sidebar1</position>
-		<position>sidebar2</position>
+		<position>sidebar_left</position>
+		<position>sidebar_right</position>
 		<position>bottom</position>
     </positions>
  

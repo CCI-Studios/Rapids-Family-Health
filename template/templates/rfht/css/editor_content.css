@@ -1,30 +1,27 @@
-.footer { 
-	color: white;
-	font-size: 10px;
+.left_img { 
+	border: #ed8501 solid 2px;
+	float: left;
+	margin: 0 18px 0 0;
 }
 
-#bottom .left {
-	color: white;
-	font-size: 10px;
+.readmore {
+	background: url(../images/readmorebg.png) 0 0 no-repeat;
 	text-decoration: none;
+	font-size: 16px;
+	padding-left: 9px;
+	float: left;
 }
 
-#bottom .left > a {
+.readmore > * {
+	background: url(../images/readmorebg.png) right -35px no-repeat;
 	color: white;
+	line-height: 34px;
+	padding: 1px 9px 0 0;
 	text-decoration: none;
+	text-transform: capitalize;
+	display: block;
+	float: left;
 }
-
-#bottom .right {
-	color: white;
-	font-size: 10px;
-	text-decoration: none;
-}
-
-#bottom .right > a {
-	color: white;
-	text-decoration: none;
-}
-
-#bottom .right > a:hover {
-	color: #f18500;
+.readmore > *:hover {
+	color: black;
 }

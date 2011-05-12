@@ -2,10 +2,37 @@
 
 .left { float: left; }
 
-.left_img { 
-	border: #ed8501 solid 2px;
-	float: left;
-	margin: 0 18px 0 0;
+.right { float: right; }
+
+.footer { 
+	color: white;
+	font-size: 10px;
 }
 
-.right { float: right; }
+.em { font-style: italic; }
+
+#bottom .left {
+	color: white;
+	font-size: 10px;
+	text-decoration: none;
+}
+
+#bottom .left > a {
+	color: white;
+	text-decoration: none;
+}
+
+#bottom .right {
+	color: white;
+	font-size: 10px;
+	text-decoration: none;
+}
+
+#bottom .right > a {
+	color: white;
+	text-decoration: none;
+}
+
+#bottom .right > a:hover {
+	color: #f18500;
+}

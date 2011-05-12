@@ -31,18 +31,35 @@
 	background: url(../images/hoverdot.png) bottom no-repeat;
 	color: #f18500;
 }
-
 /* main menu ends */
 
+/* header home page begins */
+body.home #header .moduletable { 
+	float: left;
+	padding: 0 10px;
+	width: 440px;
+}
+body.home #header h1 { font-size: 24px; }
+/* header home page ends */
+
+/* sidebar_right begins */
+#sidebar_right .moduletable { padding: 0 0 25px 0; }
+/* sidebar_right ends */
+
 /*bottom menu begins */
-#bottom .moduletable { color: white; font-size: 10px; }
-#bottom .moduletable ul { float: right; list-style-type: none; padding-top: 25px; }
-#bottom .moduletable li { display: inline; }
-#bottom .moduletable a,
-#bottom .moduletable span { color: white; padding: 2px; text-decoration: none; }
-#bottom .moduletable span:hover { color: #f18500; }
+#bottom .moduletable.menu { 
+	font-size: 10px; 
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	line-height: 1em;
+}
+#bottom .moduletable.menu ul {  list-style-type: none; }
+#bottom .moduletable.menu li { display: inline; }
+#bottom .moduletable.menu li > a,
+#bottom .moduletable.menu li > span { color: white; padding: 0 0 0 6px; text-decoration: none; }
+#bottom .moduletable.menu li:hover > a,
+#bottom .moduletable.menu li:hover > span { color: #f18500; }
 /* bottom menu ends */
 
-/* sidebar1 begins */
-#sidebar1 .moduletable { padding: 0 0 25px 0; }
-/* sidebar1 ends */
+

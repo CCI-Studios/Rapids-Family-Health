@@ -2,7 +2,7 @@ html { background: #3f7e86;  }
 
 body { 
 	background: white;
-	font-family: times, arial;
+	font-family: times, serif;
 	line-height: 1.5em;
 	margin: 0 auto; 
 } 
@@ -10,7 +10,16 @@ body {
 h1 {
 	color: #ff9415;
 	font-size: 50px;
-	padding: 46px 0 12px 0;
+	padding: 0 0 12px 0;
+}
+
+h2 {
+	color: #467c82;
+	border-bottom: #ff9415 solid 1px;
+	padding: 5px 0;
+	font-size: 20px;
+	font-weight: bold;
+	width: 90%;
 }
 
 h3 {

@@ -24,17 +24,16 @@
 }
 
 #header > div > div {
-	/* add image with bottom shadow, curve etc */
 	background: url(../images/header_bottom_bg.png) bottom no-repeat;
 	padding-bottom: 50px;
 }
 
 #header > div > div > div {
+	color: white; 
+	width: 940px;
+	padding: 46px 10px 23px;
 	margin: 0 auto;
-	min-height: 188px;
-	width: 960px;
 }
-
 
 #content { 
 	background: white;
@@ -50,39 +49,39 @@
 	width: 940px;
 }
 
+#component > div { }
+
 #component.medium { width: 780px; }
 #component.narrow { width: 480px; }
 
-#component > div { }
+#sidebar_left { 
+	float: left;
+	width: 300px;
+}
 
-#sidebar1 { 
+#sidebar_right { 
 	background: white;
 	float: left;
 	width: 160px;
 }
 
-#sidebar1 > div { padding: 0 10px; }
-
-#sidebar2 { 
-	float: left;
-	width: 300px;
-}
+#sidebar_right > div { padding: 0 10px; }
 
 #bottom {
-	background: url(../images/bottom_bg2.png) center no-repeat;
-	padding-top: 80px; /* fixme */	
+	background: #3f7e86 url(../images/bottom_bg3.png) top center no-repeat;
+	padding-top: 36px;	
 }
 
-#bottom > div { background: #3f7e86; }
+#bottom img { display: block; }
 
-#bottom > div > div {	
+#bottom > div {
 	margin: 0 auto;
+	padding: 0 10px 20px;
 	width: 940px;
 }
-
-#bottom > div > div > div { 
+#bottom > div > div { position: relative; }
+#bottom > div > div + div { 
 	background: url(../images/bottomhr.png) repeat-x;
 	margin: 10px 0;
 	padding: 10px 0px;
-	width: 940px;
 }
