@@ -2,7 +2,7 @@
 
 /*top menu begins */
 
-#top .moduletable { font-size: 14px; padding: 10px 0; }
+#top .moduletable { font-size: 14px; padding: 10px 0px; }
 #top .moduletable ul { float: right; list-style-type: none; padding-top: 40px; }
 #top .moduletable li { display: inline; }
 #top .moduletable a,
@@ -14,7 +14,10 @@
 /* main menu begins */
 .moduletable_menu { font-size: 15px; }
 .moduletable_menu ul { list-style-type: none; }
-.moduletable_menu li { float: left; }
+.moduletable_menu li { 
+	float: left;
+	position: relative;
+}
 .moduletable_menu li > a,
 .moduletable_menu li > span { 
 	color: #487c85; 
@@ -32,6 +35,34 @@
 	color: #f18500;
 }
 /* main menu ends */
+
+/* submenu beings*/
+.moduletable_menu ul ul {
+	background: url(../images/dropdownbg.png) bottom no-repeat;
+	display: none;
+	position: absolute;
+	top:100%;
+	left: 50%;
+	margin-left: -79px;
+	padding-bottom: 9px;
+	width: 157px;
+}
+.moduletable_menu li:hover ul { display: block; }
+
+.moduletable_menu ul ul li {
+	background: #e6e6e6;
+	float: none;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+}
+.moduletable_menu ul ul li > a,
+.moduletable_menu ul ul li > span {
+	line-height: 1.5em;
+	padding: 0;
+}
+/* submenu ends */
+
 
 /* header home page begins */
 body.home #header .moduletable { 

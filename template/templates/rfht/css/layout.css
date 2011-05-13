@@ -2,7 +2,7 @@
 
 #top > div {
 	margin: 0 auto;
-	width: 960px;
+	width: 940px;
 }
 
 #mainmenu {
@@ -52,7 +52,7 @@
 #component > div { }
 
 #component.medium { width: 780px; }
-#component.narrow { width: 480px; }
+#component.narrow { width: 460px; padding: 0 10px;}
 
 #sidebar_left { 
 	float: left;

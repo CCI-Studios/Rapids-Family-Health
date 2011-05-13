@@ -36,3 +36,9 @@
 #bottom .right > a:hover {
 	color: #f18500;
 }
+
+/*  calendar stuff */
+.com_calendar .calendar .day {  }
+.com_calendar .calendar .day.today {  }
+
+.com_calendar .calendar .intro {  }

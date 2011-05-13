@@ -5,6 +5,8 @@ if ($menu)
     $menu = $menu->getActive();
 if ($menu)
     $menu = $menu->alias;
+
+echo JHtml::_('behavior.modal');
 ?>
 <html>
 <head>
