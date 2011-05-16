@@ -65,7 +65,7 @@
 	width: 160px;
 }
 
-#sidebar_right > div { padding: 0 10px; }
+#sidebar_right > div { padding: 0 20px; }
 
 #bottom {
 	background: #3f7e86 url(../images/bottom_bg3.png) top center no-repeat;
