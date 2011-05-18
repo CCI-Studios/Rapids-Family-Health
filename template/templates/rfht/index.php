@@ -31,7 +31,7 @@ echo JHtml::_('behavior.modal');
 	<div id="header"><div><div><div>
 		<jdoc:include type="modules" name="header" style="xhtml" />
 		<div class="clear"></div>
-	</div></div></div></div></div>
+	</div></div></div></div>
 	
 	<div id="content">
 		
@@ -49,6 +49,7 @@ echo JHtml::_('behavior.modal');
 		?>
 		<div id="component" <?php echo $width; ?>><div>
 			<jdoc:include type="component" />
+			<div class="clear"></div>
 		</div></div>
 		
 		<?php if ($this->countModules('sidebar_left')): ?><div>
@@ -78,6 +79,11 @@ echo JHtml::_('behavior.modal');
 			<div class="right">Site by<a href="http://www.ccistudios.com" target="_blank"> CCI Studios</a></div>
 		</div>	
 	</div></div>
+	
+	<div class="hidden">
+		<jdoc:include type="modules" name="hidden" style="xhtml" />
+		<div class="clear"></div>
+	</div>
 	
 </body>
 </html>

@@ -13,10 +13,13 @@
 
 #mainmenu > div {
 	margin: 0 auto;
-	width: 960px;
+	width: 940px;
 }
 
-#header { background: #3f7e86 url(../images/header_glow_inner.png) center no-repeat; }
+#header { 
+	background: #3f7e86 url(../images/header_glow_inner.png) center no-repeat;
+	zoom: 1; /* damn IE */
+}
 
 #header > div {
 	background: url(../images/header_top_bg.png) top repeat-x;
