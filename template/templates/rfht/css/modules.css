@@ -18,14 +18,15 @@
 	float: left;
 	margin: 0;
 	position: relative;
+	zoom: 1;
 }
 .moduletable_menu li > a,
 .moduletable_menu li > span { 
 	color: #487c85; 
 	display: block;
-	line-height: 33px;
+	line-height: 30px;
 	margin: 0 0 1px 0;
-	padding: 4px 15px 8px;
+	padding: 7px 15px 8px;
 	text-decoration: none;
 }
 .moduletable_menu li:first-child > a,
