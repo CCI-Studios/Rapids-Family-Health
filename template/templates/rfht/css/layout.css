@@ -34,7 +34,7 @@
 #header > div > div > div {
 	color: white; 
 	width: 940px;
-	padding: 46px 10px 23px;
+	padding: 25px 10px 0;
 	margin: 0 auto;
 }
 
@@ -83,6 +83,7 @@
 	width: 940px;
 }
 #bottom > div > div { position: relative; }
+#bottom > div > div:first-child { zoom:1; }
 #bottom > div > div + div { 
 	background: url(../images/bottomhr.png) repeat-x;
 	margin: 10px 0;
