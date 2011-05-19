@@ -16,6 +16,7 @@
 .moduletable_menu ul { list-style-type: none; margin: 0 0 1px 0; }
 .moduletable_menu li { 
 	float: left;
+	margin: 0;
 	position: relative;
 }
 .moduletable_menu li > a,
@@ -44,7 +45,7 @@
 	top:100%;
 	left: 50%;
 	margin-left: -79px;
-	padding-bottom: 9px;
+	padding-bottom: 8px;
 	width: 157px;
 }
 .moduletable_menu li:hover ul { display: block; }
@@ -59,7 +60,7 @@
 .moduletable_menu ul ul li > a,
 .moduletable_menu ul ul li > span { 
 	line-height: 1.5em; 
-	padding: 0;
+	padding: 4px 0 0;
 }
 .moduletable_menu ul ul li > a:hover,
 .moduletable_menu ul ul li > span:hover { background: none; }
@@ -86,7 +87,7 @@ body.home #header h1 { font-size: 24px; }
 /* content page ends */
 
 /* sidebar_right begins */
-#sidebar_right .moduletable { padding: 0 0 25px 0; }
+#sidebar_right .moduletable { padding: 14px 0 0 0; }
 /* sidebar_right ends */
 
 /* events begins */
