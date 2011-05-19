@@ -23,18 +23,17 @@ h1 {
 }
 
 h2 {
-	color: #467c82;
+	color: #ff9415;
 	border-bottom: #ff9415 solid 1px;
 	margin-bottom: 30px;
 	padding: 5px 0;
 	font-size: 20px;
-	font-weight: bold;
 	width: 90%;
 }
 
 h3 {
 	font-size: 20px;
-	font-weight: bold;
+	padding: 5px;
 }
 /* table settings */
 
@@ -65,14 +64,21 @@ td { vertical-align: middle; }
 /* calendar settings */
 #component .com_calendar h1 { display: none; }
 #component .com_calendar table { width: 780px; } 
-#component .com_calendar table h2 { color: white; border: none; width: 100%; margin-bottom: 0; text-align: center; vertical-align: middle; }
-.com_calendar .calendar .day { border: 2px solid #ed8501; }
-.com_calendar .calendar .day.today { background: #ed8501; }
+#component .com_calendar table h2 { 
+	border: none;
+	color: #ed8501; 
+	font-size: 24px; 
+	margin-bottom: 0; 
+	text-align: center;
+	width: 100%; 
+	vertical-align: middle; 
+}
+.com_calendar .calendar .day { border: 2px solid #ff9415; }
+.com_calendar .calendar .day.today { background: #ff9415; }
 .com_calendar .calendar .day.padding { background: #487c85; }
 #content .com_calendar th a { color: white; text-align: center; vertical-align: middle; }
 .com_calendar tbody { text-align: left; }
-.com_calendar tbody .date { font-weight: bold; top: 1px; left: 1px; font-size: 12px;}
+.com_calendar tbody .date { color: #487c85; font-weight: bold; top: 1px; left: 1px; font-size: 12px;}
 .com_calendar tbody .day { vertical-align: top; height: 100px; width: 112px;}
 
 #popover_event { background: #487c85; color: white; border: #ed8501 solid 2px; }
-#popover_event h2 {  color: #ed8501; font-size: 24px; }
