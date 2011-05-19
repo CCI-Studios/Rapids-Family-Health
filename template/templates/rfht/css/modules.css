@@ -104,8 +104,9 @@ body.home #header h1 { font-size: 24px; }
 	bottom: 0;
 	line-height: 1em;
 }
+
 #bottom .moduletable.menu ul {  list-style-type: none; }
-#bottom .moduletable.menu li { display: inline; }
+#bottom .moduletable.menu li { float: left; }
 #bottom .moduletable.menu li > a,
 #bottom .moduletable.menu li > span { color: white; padding: 0 0 0 6px; text-decoration: none; }
 #bottom .moduletable.menu li:hover > a,
