@@ -31,10 +31,10 @@
 	padding-bottom: 50px;
 }
 
-#header > div > div > div {
+#header > div > div > div { 
 	color: white; 
 	width: 940px;
-	padding: 25px 10px 0;
+	padding: 25px 10px;
 	margin: 0 auto;
 }
 
