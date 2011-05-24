@@ -30,7 +30,7 @@ echo JHtml::_('behavior.modal');
 	
 	<div id="header"><div><div><div>
 		<jdoc:include type="modules" name="header" style="xhtml" />
-		<div class="clear"></div>
+		<div class="clear" style="height:0px;"></div>
 	</div></div></div></div>
 	
 	<div id="content">
