@@ -4,6 +4,8 @@
 
 .right { float: right; }
 
+.green { color: #3f7e86; }
+
 #component img {
 	border: #ed8501 solid 2px;
 }
@@ -23,7 +25,6 @@
 	background: url(../images/readmorebg.png) 0 0 no-repeat;
 	text-decoration: none;
 	font-size: 16px;
-	margin: 26px 0 ;
 	padding-left: 9px;
 	float: left;
 }
