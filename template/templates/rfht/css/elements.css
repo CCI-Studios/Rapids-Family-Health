@@ -19,7 +19,7 @@ ul, ol {
 h1 {
 	color: #ff9415;
 	font-size: 50px;
-	padding: 20px 0 40px 0;
+	padding: 20px 10px 40px ;
 }
 
 h2 {
@@ -34,7 +34,7 @@ h2 {
 h3 {
 	font-size: 20px;
 	font-weight: bold;
-	padding: 5px;
+	padding: 5px 10px;
 }
 /* table settings */
 
@@ -42,7 +42,7 @@ table, td, th {
 	border: 2px solid #ed8501; 
 }
 
-#component .medium table, td { text-align: left; padding: 0 5px;}
+#component .medium table, td { text-align: left; padding: 0 5px; }
 
 tbody {
 	text-align: center;
