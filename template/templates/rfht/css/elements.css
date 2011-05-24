@@ -9,7 +9,7 @@ body {
 } 
 
 p {
-	margin: 1em 0;
+	margin: 1em 10px;
 }
 
 ul, ol {
@@ -33,6 +33,7 @@ h2 {
 
 h3 {
 	font-size: 20px;
+	font-weight: bold;
 	padding: 5px;
 }
 /* table settings */
