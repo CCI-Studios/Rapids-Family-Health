@@ -80,8 +80,8 @@ body.home #header h1 { font-size: 24px; }
 .home #content a { text-decoration: none; color: white; }
 .home #content a:hover { color: black;}
 
-#content ul { padding-left: 14px; }
-
+#content ul { padding-left: 24px; list-style-type: circle; }
+#content li { }
 #content a { text-decoration: none; color: #487c85; }
 #content a:hover { color: #f18500;}
 
@@ -92,8 +92,9 @@ body.home #header h1 { font-size: 24px; }
 /* sidebar_right ends */
 
 /* events begins */
-.mod_calendar ul { list-style-type: none; }
-.mod_calendar li { padding-bottom: 12px; }
+.mod_calendar  {  }
+.mod_calendar ul {  padding-left: 10px; }
+.mod_calendar li { list-style-type: none; padding-bottom: 12px; }
 .mod_calendar li .date { color: #487c85; }
 #content .mod_calendar ul { padding-left: 0; }
 /* events ends */
