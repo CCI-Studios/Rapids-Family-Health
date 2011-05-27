@@ -91,11 +91,18 @@ body.home #header h1 { font-size: 24px; }
 #sidebar_right .moduletable { padding: 14px 0 0 0; }
 /* sidebar_right ends */
 
+/* sidebar_left begins */
+#sidebar_left .moduletable { }
+#sidebar_left .moduletable ul { margin-left: 0; }
+#sidebar_left .moduletable li { list-style-type: none; }
+#sidebar_left .moduletable  { }
+/* sidebar_left ends */
+
 /* events begins */
 .mod_calendar  {  }
 .mod_calendar ul { list-style-type: none; padding-left: 10px; }
 .mod_calendar li { padding-bottom: 12px; }
-.mod_calendar li .date { color: #487c85; }
+.mod_calendar li .date { color: #487c85;  }
 #content .mod_calendar ul { padding-left: 0; }
 /* events ends */
 

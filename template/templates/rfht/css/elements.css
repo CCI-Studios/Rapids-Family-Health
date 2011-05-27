@@ -19,7 +19,7 @@ ul, ol {
 h1 {
 	color: #ff9415;
 	font-size: 50px;
-	padding: 20px 0px 40px ;
+	padding: 20px 0px ;
 }
 
 h2 {
@@ -55,9 +55,13 @@ tbody {
 	width: 390px; 
 }
 
-th { 
+th { 	
 	background-color: #487c85; 
-	color: white; 
+	color: white;
+	font-size: 25px;
+	font-weight: bold;
+	line-height: 1.10em;
+	padding: 5px 0;
 	vertical-align: middle;
 }
 
@@ -68,17 +72,23 @@ td { vertical-align: middle; }
 #component .com_calendar table { width: 780px; } 
 #component .com_calendar table h2 { 
 	border: none;
-	color: #ed8501; 
+	color: #ff9415; 
 	font-size: 24px; 
 	margin-bottom: 0; 
 	text-align: center;
 	width: 100%; 
 	vertical-align: middle; 
 }
+#component .com_calendar table th {
+	background-color: #487c85; 
+	color: white;
+	font-size: 15px;
+	font-weight: bold;
+}
 .com_calendar .calendar .day { border: 2px solid #ff9415; }
 .com_calendar .calendar .day.today { background: #ff9415; }
 .com_calendar .calendar .day.padding { background: #487c85; }
-#content .com_calendar th a { color: white; text-align: center; vertical-align: middle; }
+#content .com_calendar th a { color: #ff9415; text-align: center; vertical-align: middle; }
 .com_calendar tbody { text-align: left; }
 .com_calendar tbody .date { color: #487c85; font-weight: bold; top: 1px; left: 1px; font-size: 12px;}
 .com_calendar tbody .day { vertical-align: top; height: 100px; width: 112px;}

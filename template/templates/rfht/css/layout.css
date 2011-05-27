@@ -17,7 +17,12 @@
 }
 
 #header { 
-	background: #3f7e86 url(../images/header_glow_inner2.png) center no-repeat;
+	background: #3f7e86 url(../images/header_glow_inner.png) center -140px no-repeat;
+	zoom: 1; /* damn IE */
+}
+
+body.home #header { 
+	background: #3f7e86 url(../images/header_glow_inner_home.png) center -140px no-repeat; 
 	zoom: 1; /* damn IE */
 }
 
