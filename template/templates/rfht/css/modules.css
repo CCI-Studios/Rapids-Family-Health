@@ -121,6 +121,8 @@ body.home #header h1 { font-size: 24px; }
 #bottom .moduletable.menu li > span { color: white; padding: 0 0 0 6px; text-decoration: none; }
 #bottom .moduletable.menu li:hover > a,
 #bottom .moduletable.menu li:hover > span { color: #f18500; }
+#bottom .moduletable.menu li:hover > a.separator, 
+#bottom .moduletable.menu li:hover > span.separator { color: white; }
 /* bottom menu ends */
 
 
