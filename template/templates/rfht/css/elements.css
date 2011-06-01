@@ -84,6 +84,7 @@ table.staff td {
 #content .com_calendar th a { color: #ff9415; text-align: center; vertical-align: middle; }
 .com_calendar tbody .day { vertical-align: top; height: 100px; width: 112px; }
 .com_calendar tbody .date { color: #487c85; font-weight: bold; font-size: 12px;}
+.com_calendar tbody .event + .event { border-top: 1px solid #ed8500; }
 
 
 #popover_event { 
