@@ -83,8 +83,8 @@ body.home #header h1 { font-size: 24px; }
 #content ul { list-style-type: circle; margin: 1em 0 1em 1.5em; }
 #content li { }
 #content a { text-decoration: none; color: #487c85; }
-#content a:hover { color: #f18500;}
-
+#content a:hover { color: #f18500; }
+#content .day.title {color: red; }
 /* content page ends */
 
 /* sidebar_right begins */
@@ -92,10 +92,8 @@ body.home #header h1 { font-size: 24px; }
 /* sidebar_right ends */
 
 /* sidebar_left begins */
-#sidebar_left .moduletable { }
 #sidebar_left .moduletable ul { margin-left: 0; }
 #sidebar_left .moduletable li { list-style-type: none; }
-#sidebar_left .moduletable  { }
 /* sidebar_left ends */
 
 /* events begins */
