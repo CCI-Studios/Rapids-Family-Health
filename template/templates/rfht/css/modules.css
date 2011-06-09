@@ -84,7 +84,7 @@ body.home #header h1 { font-size: 24px; }
 #content li { }
 #content a { text-decoration: none; color: #487c85; }
 #content a:hover { color: #f18500; }
-#content .day.today.title a:hover { color: red; }
+#content .day.today a:hover { color: black; }
 /* content page ends */
 
 /* sidebar_right begins */
